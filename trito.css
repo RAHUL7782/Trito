@@ -1,0 +1,1078 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#checkbox1 {
+    display: none;
+}
+
+#firstdiv {
+    background-image: url(greenback1.png);
+
+}
+
+.navbar {
+    display: flex;
+    border-bottom: 1px solid black;
+    padding: 20px;
+    /* position: fixed;
+    top: 0%;
+    width: 100vw; */
+
+}
+
+.tritologo {
+    width: 30%;
+
+}
+
+.tritologo img {
+    margin-left: 48%;
+}
+
+.navul {
+    display: flex;
+    width: 40%;
+    position: relative;
+}
+
+.navul li a {
+    padding: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navul li {
+    text-decoration: none;
+    display: inline;
+}
+
+.navul li a:active {
+    color: red;
+}
+
+#labeli {
+    font-size: 40px;
+    color: rgb(00, 00, 90);
+    display: none;
+}
+
+.navbutton {
+    background-color: blue;
+    color: white;
+    width: 190px;
+    margin-left: 80px;
+    font-size: 20px;
+    height: 40px;
+
+}
+
+.navbutton:hover {
+    background-color: white;
+    color: rgb(00, 00, 90);
+    transition: 2s;
+}
+
+#checkbox1:checked~.navul {
+    left: 0px;
+}
+
+@media screen and (max-width:920px) {
+
+    #labeli {
+        display: flex;
+        margin-left: 70vw;
+        position: sticky;
+        overflow: hidden;
+    }
+
+    .navul {
+        display: flex;
+        flex-direction: column;
+        /* position: relative; */
+        background-color: yellow;
+        top: 80px;
+        height: 126px;
+        width: 100%;
+        position: absolute;
+        overflow: hidden;
+        left: -1500px;
+        transition: all s;
+
+    }
+
+    .navbar button {
+        display: none;
+    }
+
+    .navbar {
+        height: 40px;
+    }
+
+    #home {
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow: hidden;
+
+    }
+
+    #home .buttonhome {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #home p {
+        margin-top: 5px;
+    }
+
+    #home .asideimg {
+        margin-top: 10px;
+    }
+
+    #secondpart div {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-right: 70px;
+        overflow: hidden;
+    }
+
+    #secomdpart div img {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+
+#home {
+    display: flex;
+    margin-bottom: 0%;
+    margin-bottom: 0%;
+    padding: 0%
+}
+
+.asideleft {
+    width: 40%;
+    margin: 150px;
+    margin-bottom: 0%;
+    padding: 0%
+}
+
+.asideimg {
+    margin-top: 100px;
+    margin-bottom: 0%;
+    padding: 0%;
+    position: relative;
+    top: 4px;
+}
+
+.asideleft h3 {
+    color: rgb(00, 00, 90);
+    font-size: 30px;
+}
+
+.asideleft h1 {
+    color: rgb(00, 00, 90);
+    font-size: 50px;
+}
+
+.asideleft h5 {
+    color: rgb(00, 00, 90);
+    font-size: 17px;
+}
+
+.buttonshome {
+    margin-top: 35px;
+}
+
+.buttonshome button {
+    color: rgb(00, 00, 90);
+    font-size: 17px;
+    width: 100px;
+    height: 40px;
+}
+
+.buttonshome button:hover {
+    background-color: rgb(00, 00, 90);
+    color: white;
+    transition: 1s;
+}
+
+.buttonshome a {
+    color: rgb(00, 00, 90);
+    font-size: 17px;
+    width: 100px;
+    height: 40px;
+    padding: 20px;
+}
+
+.asideleft p span {
+    font-size: 80px;
+    color: yellow;
+    position: relative;
+    left: 10px;
+    top: 15px;
+}
+
+.asideleft p {
+    color: rgb(00, 00, 90);
+    font-size: 15px;
+    font-weight: 800;
+    margin-top: 80px;
+}
+
+/*css of second part of our website*/
+#secondpart {
+    background-color: rgb(00, 00, 90);
+}
+
+.secondparthr hr {
+    width: 100px;
+    background-color: white;
+    color: white;
+    height: 2px;
+    margin-top: 78px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#secondpart h4 {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+#secondpart div {
+    display: flex;
+    justify-content: center;
+
+}
+
+#secondpart div img {
+    padding-left: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+
+/*third part css starts from here*/
+#thirdpart {
+    display: flex;
+    padding: 100px;
+}
+
+#thirdpart .div11 {
+    width: 30%;
+    justify-content: center;
+    margin-left: 80px;
+    border-right: 1px solid black;
+
+}
+
+#thirdpart .div11 p {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+#thirdpart .div11:hover {
+    transition: 2s;
+    border-right: 3px solid rgb(176, 163, 163);
+}
+
+#thirdpart .div1 {
+    display: flex;
+    padding-bottom: 5px;
+
+}
+
+.div21 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.div21 p {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+#thirdpart .div1 h5 {
+    font-size: 25px;
+    padding-top: 25px;
+}
+
+@media screen and (max-width:920px) {
+    #thirdpart {
+        flex-wrap: wrap;
+        overflow-x: hidden;
+    }
+
+    #thirdpart .div11 {
+        width: 100%;
+        border-right: none;
+        margin-left: 40px;
+        border-bottom: 1px solid black;
+        padding-bottom: 10px;
+
+    }
+
+    #thirdpart .div21 {
+        width: 100%;
+        border-right: none;
+        margin-left: 40px;
+        border-bottom: 1px solid black;
+
+    }
+}
+
+/*css of fourth part of our website*/
+#fourthpart {
+    display: flex;
+}
+
+#fourthpart .aside1 {
+    margin-left: 200px;
+    padding-top: 30px;
+}
+
+.aside1 h3 {
+    color: orangered;
+    font-weight: bolder;
+}
+
+.aside1 h4 {
+    font-size: 50px;
+    color: rgb(00, 00, 90);
+    padding-top: 10px;
+}
+
+.aside1 p {
+    font-size: 18px;
+    color: rgb(00, 00, 90);
+    padding-top: 15px;
+    word-spacing: 5px;
+    font-weight: 700;
+}
+
+.aside2 {
+    background-image: url(pinkbackground.jpg);
+    display: inline;
+    padding: 70px 130px 40px 100px;
+    margin-left: 120px;
+}
+
+.asidebutton1 {
+    color: rgb(00, 00, 90);
+    font-weight: bolder;
+    margin: 20px;
+    padding: 15px;
+}
+
+@media screen and (max-width:920px) {
+    #fourthpart {
+        flex-wrap: wrap;
+        overflow: hidden;
+
+    }
+
+    #fourthpart .aside1 {
+        width: 100%;
+        margin: 10%;
+    }
+
+    #fourthpart .aside2 {
+        width: 100%;
+        margin: 0%;
+    }
+}
+
+/*css of third part of our website*/
+#fifthpart {
+    margin: 80px 40px 0px 200px;
+    display: flex;
+}
+
+.downpro {
+    max-width: 33%;
+    display: flex;
+    padding-right: 200px;
+}
+
+.downpro h6 {
+    font-size: 50px;
+
+    color: rgb(00, 00, 90);
+    border-bottom: 4px solid rgb(00, 00, 90);
+}
+
+.downpro p {
+    color: rgb(00, 00, 90);
+    font-size: 20px;
+    padding: 15px 0px 0px 20px;
+    font-weight: 900px;
+}
+
+@media screen and (max-width:920px) {
+    #fifthpart {
+        flex-wrap: wrap;
+        overflow: hidden;
+        margin: 0px 20%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #fifthpart .downpro {
+        margin-top: 40px;
+        width: 100%;
+    }
+}
+
+/*css of sixth part of our website*/
+#about {
+    background-image: url(backgroundyellow.jpg);
+    display: flex;
+    margin-top: 100px;
+}
+
+#about .aside1 {
+    margin: 0px 100px 0px;
+    max-width: 50%;
+    color: brown;
+}
+
+#about .aside1 button {
+    font-size: 20px;
+    padding: 5px 50px;
+    position: relative;
+    top: -170px;
+    color: rgb(00, 00, 90);
+    border: 1px solid black;
+}
+
+#about .aside1 button span {
+    color: orangered;
+    font-size: 45px;
+}
+
+.abouthr {
+    display: flex;
+}
+
+.abouthr hr {
+    width: 60px;
+    background-color: orangered;
+    color: orangered;
+    height: 1px;
+    margin-top: 8px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.aside21 {
+    margin: 80px 150px;
+}
+
+.aside21 h6 {
+    color: orangered;
+    font-size: 15px;
+
+}
+
+.aside21 h5 {
+    color: black;
+    font-size: 45px;
+    margin: 20px 0px;
+}
+
+.aside21 p {
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 500;
+    word-spacing: 6px;
+    color: rgb(00, 00, 90);
+}
+
+.aside21 button {
+    font-size: 15px;
+    margin-top: 50px;
+    word-spacing: 6px;
+    color: white;
+    background-color: rgb(00, 00, 90);
+    padding: 15px 25px;
+}
+
+.aside21 button:hover {
+    background-color: white;
+    color: rgb(00, 00, 90);
+    transition: 1s;
+}
+
+@media screen and (max-width:920px) {
+    #about {
+        flex-wrap: wrap;
+
+    }
+
+    #about .aside1 {
+        width: 100%;
+        justify-content: start;
+    }
+
+    #about .aside1 img {
+        height: 400px;
+        width: 250px;
+        margin-right: 400px;
+    }
+
+    #about .aside1 button {
+        height: 60px;
+        width: 80pxpx;
+        margin-right: 400px;
+        padding: 0px;
+        font-size: small;
+    }
+
+    #about .aside1 button span {
+        font-size: large;
+    }
+
+    #about .aside21 {
+        width: 100%;
+        margin: 20px;
+    }
+}
+
+/* css of seventh part of our website*/
+#seventhpart {
+    display: flex;
+    margin-top: 100px;
+
+}
+
+#seventhpart aside {
+    width: 25%;
+    padding-left: 150px;
+}
+
+#seventhpart .aside7 {
+    width: 50%;
+
+}
+
+.aside7 h6 {
+    font-size: 30px;
+    color: rgb(00, 00, 90);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.aside7 p {
+    color: rgb(00, 00, 90);
+    font-size: 18px;
+    word-spacing: 7px;
+    margin: 40px 0px;
+}
+
+.aside7 h4 {
+    color: rgb(00, 00, 90);
+    font-size: 25px;
+}
+
+@media screen and (max-width:920px) {
+    #seventhpart {
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+
+    #seventhpart aside {
+        width: 100%;
+        padding-left: 0%;
+    }
+
+    #seventhpart aside img {
+        width: 80%;
+        height: auto;
+    }
+
+    #seventhpart .aside7 {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+/* css of eighth part of our website*/
+.portfolio1 {
+    display: flex;
+    margin-top: 70PX;
+}
+
+.portfolio1 aside {
+    height: 450px;
+    width: 50%;
+    margin: 10px;
+    overflow: hidden;
+    border: 1px solid black;
+
+}
+
+.portfolio1 aside:hover h6 {
+    transition: 1s;
+    z-index: 1;
+}
+
+.portfolio1 aside:hover img {
+    transform: scale(1.2);
+    transition: 1s;
+
+}
+
+.portfolio1 h6 {
+    font-size: 30px;
+    background-color: rgb(12, 84, 84);
+    color: aliceblue;
+    position: relative;
+    top: -135px;
+    height: 50px;
+    padding: 10px 20px;
+    margin-left: 30px;
+    border: 1px solid black;
+    z-index: -1;
+
+}
+
+
+.portfolio2 {
+    display: flex;
+    margin-top: PX;
+}
+
+.portfolio2 aside {
+    height: 450px;
+    width: 33%;
+    margin: 10px;
+    overflow: hidden;
+    border: 1px solid black;
+
+}
+
+.portfolio2 aside:hover h6 {
+    transition: 1s;
+    z-index: 1;
+}
+
+.portfolio2 aside:hover img {
+    transform: scale(1.2);
+    transition: 1s;
+
+}
+
+.portfolio2 h6 {
+    font-size: 30px;
+    background-color: rgb(12, 84, 84);
+    color: aliceblue;
+    position: relative;
+    top: -135px;
+    height: 50px;
+    padding: 10px 20px;
+    margin-left: 30px;
+    border: 1px solid black;
+    z-index: -1;
+
+}
+
+@media screen and (max-width:920px) {
+    #portfolio {
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+
+    #portfolio .portfolio1 {
+        flex-wrap: wrap;
+    }
+
+    #portfolio .portfolio1 aside {
+        width: 100%;
+        height: 500px;
+    }
+
+    #portfolio .portfolio1 aside img {
+        width: 100%;
+        height: 500px;
+    }
+
+    #portfolio .portfolio2 {
+        flex-wrap: wrap;
+    }
+
+    #portfolio .portfolio2 aside {
+        width: 100%;
+        height: 500px;
+    }
+
+    #portfolio .portfolio2 aside img {
+        width: 100%;
+        height: 500px;
+    }
+
+
+}
+
+/*css of ninth part of our document*/
+#faq {
+    margin: 100px 00px;
+}
+
+#faq h6 {
+    font-size: 20px;
+    color: orangered;
+    display: flex;
+    justify-content: center;
+}
+
+#faq h2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    color: rgb(00, 00, 90);
+}
+
+.details {
+    margin: 80px 210px;
+}
+
+.details summary {
+    color: white;
+    background-color: rgb(00, 00, 90);
+    margin: 5px 00px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.details p {
+    color: white;
+    background-color: rgb(00, 00, 90);
+    margin: 5px 00px;
+    padding: 20px;
+    font-size: 15px;
+    word-spacing: 5px;
+}
+
+@media screen and (max-width:920px) {
+    #faq {
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+
+    #faq div {
+        margin: 0%;
+        font-size: small;
+    }
+
+    #faq h2 {
+        margin: 0%;
+        font-size: large;
+
+    }
+
+    .details details {
+        width: 100%;
+        font-size: medium;
+        margin-left: 0%;
+        font-size: medium;
+        padding: 5px;
+        margin: 0%;
+    }
+}
+
+/*css of tenth part of our document*/
+#tenthpart {
+    background-image: url(greenback1.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#tenthpart h4 {
+    font-size: 60px;
+    text-align: center;
+    color: rgb(00, 00, 90);
+    margin: 80px 00px 10px;
+}
+
+#tenthpart button {
+    font-size: 20px;
+    margin: 20px 00px 80px;
+    padding: 10px 30px;
+    text-align: center;
+    color: rgb(00, 00, 90);
+    border: 1px solid black;
+}
+
+#tenthpart button:hover {
+    transition: 1s;
+    background-color: rgb(00, 00, 90);
+    color: white;
+    border: 1px solid black;
+}
+
+@media screen and (max-width:920px) {
+    #tenthpart {
+        overflow: hidden;
+    }
+
+}
+
+/*css of eleventh part of our document*/
+#news .news1 h6 {
+    font-size: 20px;
+    color: orangered;
+    margin: 100px 0px 20px 90px;
+}
+
+#news h5 {
+    font-size: 40px;
+    color: rgb(00, 00, 90);
+    margin: 15px 0px 50px 90px;
+}
+
+.newsimg {
+    display: flex;
+    margin-left: 200px;
+
+}
+
+.news1 {
+    margin-left: 200px;
+}
+
+#news .newsimg div {
+    overflow: hidden;
+    margin: 00px 20px 0px;
+    height: 200px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+
+.newsimg div img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.news3 {
+    display: flex;
+    margin-left: 190px;
+    margin-bottom: 0px;
+}
+
+.news4 {
+    font-size: 20px;
+    color: rgb(00, 00, 90);
+    margin: 45px 25px 20px 55px;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 0.1px solid rgb(145, 142, 142);
+}
+
+.news4:hover {
+    color: orangered;
+}
+
+.news7 {
+    display: flex;
+    margin-left: 250px;
+}
+
+.news6 {
+    font-size: 15px;
+    color: rgb(84, 84, 174);
+    margin-right: 245px;
+    margin-bottom: 100px;
+    font-style: unset;
+
+
+}
+
+@media screen and (max-width:920px) {
+    #news {
+        overflow: hidden;
+        flex-wrap: wrap;
+    }
+
+    #news .news1 {
+        margin-left: 50px;
+        width: 100%;
+    }
+
+    #news .newsimg {
+        margin-left: 50px;
+        width: 100%;
+    }
+
+    #news .newsimg div {
+        width: 150px;
+        height: 100px;
+
+    }
+
+    #news .newsimg div img {
+        width: 150%;
+        height: 100%;
+
+    }
+
+    #news .news3 {
+        margin-left: 0px;
+        font-size: medium;
+        width: 100%;
+        margin-right: 0%;
+        justify-content: center;
+    }
+
+    #news .news3 h6 {
+        margin-left: 0px;
+        font-size: small;
+        width: 100%;
+    }
+
+    #news .news7 {
+        margin-left: 0%;
+        padding: 0%;
+        margin-right: 0%;
+    }
+
+    #news .news7 .news6 {
+        margin-left: 0%;
+        padding: 60px;
+        margin-right: 0%;
+    }
+}
+
+/* last part css of our website*/
+#contact {
+    display: flex;
+    background-color: rgb(00, 00, 90);
+}
+
+.asidecon1 {
+    width: 33%;
+    margin-left: 100px;
+    color: white;
+    padding: 100px 100px;
+}
+
+.asidecon1 h6 {
+    font-size: 20px;
+    color: orangered;
+
+}
+
+.asidecon1 h5 {
+    font-size: 50px;
+    margin: 10px;
+
+}
+
+.asidecon1 h2 {
+    font-size: 25px;
+    margin: 10px 20px 20px 0px;
+    border-bottom: 2px solid white;
+    margin-right: 200px;
+    /* display: inline-block; */
+
+}
+
+.asidecon1 h2 span {
+    color: rgb(85, 85, 122);
+}
+
+#contact .asidecon1 figcaption {
+    background-color: rgb(18, 12, 112);
+    margin-top: 70px;
+    padding: 40px;
+}
+
+.asidecon2 fieldset {
+    background-color: white;
+    margin: 80px 0px 80px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.asidecon2 fieldset input {
+    margin: 10px 0px;
+}
+
+.asidecon2 fieldset .inp1 {
+    margin: 30px;
+    padding: 10px 50px;
+}
+
+.asidecon2 fieldset .inp2 {
+    margin: 0px 30px;
+    padding: 10px 50px;
+}
+
+.asidecon2 fieldset .inp3 {
+    margin: 15px 30px;
+    padding: 10px 50px 70px;
+}
+
+.asidecon2 fieldset .inp4 {
+    margin: 0px 30px;
+    padding: 10px 65px;
+    color: rgb(00, 00, 90);
+    background-color: aqua;
+    font-size: 20px;
+}
+
+.asidecon2 fieldset .inp4:hover {
+    transition: 1s;
+    color: white;
+    background-color: rgb(00, 00, 90);
+}
+
+.asidecon2 fieldset div {
+    margin: 0px 30px;
+    padding: 10px 65px;
+    display: flex;
+    justify-content: space-etween;
+    margin: 10px 20px;
+}
+
+.asidecon2 fieldset div h1 {
+    padding: 30px;
+}
+
+@media screen and (max-width:920px) {
+    #contact {
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+
+    #contact .asidecon1 {
+        width: 100%;
+        margin-left: 5%;
+        padding-left: 0%;
+    }
+
+    #contact .asidecon2 {
+        width: 100%;
+        margin-top: 0%;
+        margin-left: 5%;
+        padding-left: 0%;
+    }
+
+    .asidecon2 fieldset {
+        margin: 00px 00px 50px 10px;
+    }
+}

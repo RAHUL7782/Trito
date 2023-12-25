@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1 {
+            display: block;
+            margin-left: 30%;
+            /* margin-right: 10%; */
+            margin-top: 6%;
+            border: 2px solid rgba(0, 0, 0, 0.92);
+            border-radius: 20px;
+            padding: 30px;
+            width: 450px;
+            background: #40052df0;
+
+        }
+
+        input[type=email] {
+            font-size: 30px;
+            padding: 10px;
+            width: 400px;
+            margin: 10px;
+            /* background-color: #11ae67; */
+        }
+
+        input[type=password] {
+            font-size: 30px;
+            padding: 10px;
+            width: 400px;
+            margin: 10px;
+        }
+
+        input[type=repass] {
+            font-size: 30px;
+            padding: 10px;
+            width: 400px;
+            margin: 10px;
+        }
+
+        div[id=form] {
+            color: aqua;
+            background: #070707;
+            text-align: center;
+            margin: 20px;
+        }
+
+        button {
+            font-size: 30px;
+            padding: 10px;
+            width: 15rem;
+            margin: 10px;
+            background: #0d8ddc;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div1">
+
+        <div style="font-size: 2rem; text-align: center;" id="form">Login Form</div>
+        <div>
+            <input type="email" id="email" placeholder="Enter your Email id">
+        </div>
+
+        <div>
+            <input type="password" id="password" placeholder="Enter your password">
+        </div>
+
+        <div>
+            <input type="repass" id="repass" placeholder="Enter your re password">
+        </div>
+        <div style="display: flex; justify-content: center;"><button onclick="loginform()">Login</button></div>
+
+    </div>
+
+    <script src="login.js"></script>
+
+</body>
+
+</html>
